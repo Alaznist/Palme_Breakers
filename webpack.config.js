@@ -1,50 +1,64 @@
-const path = require('path')
-const { CleanWebpackPlugin } = require('clean-webpack-plugin')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const CopyPlugin = require('copy-webpack-plugin')
+// Generated using webpack-cli https://github.com/webpack/webpack-cli
 
-module.exports = {
-    // Basic configuration
-    entry: './src/index.ts',
-    // Necessary in order to use source maps and debug directly TypeScript files
-    devtool: 'source-map',
-    module: {
-        rules: [
-            // Necessary in order to use TypeScript
-            {
-                test: /\.ts$/,
-                use: 'ts-loader',
-                exclude: /node_modules/,
-            },
-        ],
-    },
-    resolve: {
-        // Alway keep '.js' even though you don't use it.
-        // https://github.com/webpack/webpack-dev-server/issues/720#issuecomment-268470989
-        extensions: ['.ts', '.js'],
-    },
-    output: {
-        filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist'),
-        // This line is VERY important for VS Code debugging to attach properly
-        // Tamper with it at your own risks
-        devtoolModuleFilenameTemplate: '[absolute-resource-path]',
-    },
-    plugins: [
-        // No need to write a index.html
-        new HtmlWebpackPlugin(),
-        // Do not accumulate files in ./dist
-        new CleanWebpackPlugin(),
-        // Copy assets to serve them
-        new CopyPlugin([{ from: 'assets', to: 'assets' }]),
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
+const isProduction = process.env.NODE_ENV == "production";
+
+const stylesHandler = isProduction
+  ? MiniCssExtractPlugin.loader
+  : "style-loader";
+
+const config = {
+  entry: "./src/index.ts",
+  output: {
+    path: path.resolve(__dirname, "dist"),
+  },
+  devServer: {
+    open: true,
+    host: "localhost",
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "index.html",
+    })
+
+    // Add your plugins here
+    // Learn more about plugins from https://webpack.js.org/configuration/plugins/
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.(ts|tsx)$/i,
+        loader: "ts-loader",
+        exclude: ["/node_modules/"],
+      },
+      {
+        test: /\.css$/i,
+        use: [stylesHandler, "css-loader"],
+      },
+      {
+        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
+        type: "asset",
+      },
+
+      // Add your rules for custom modules here
+      // Learn more about loaders from https://webpack.js.org/loaders/
     ],
-    devServer: {
-        // webpack-dev-server configuration
-        contentBase: path.join(__dirname, 'dist'),
-        // keep port in sync with VS Code launch.json
-        port: 3000,
-        // Hot-reloading, the sole reason to use webpack here <3
-        hot: true,
-        writeToDisk: true,
-    },
-}
+  },
+  resolve: {
+    extensions: [".tsx", ".ts", ".jsx", ".js", "..."],
+  },
+};
+
+module.exports = () => {
+  if (isProduction) {
+    config.mode = "production";
+
+    config.plugins.push(new MiniCssExtractPlugin());
+  } else {
+    config.mode = "development";
+  }
+  return config;
+};

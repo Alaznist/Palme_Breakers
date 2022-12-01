@@ -3,6 +3,8 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 const isProduction = process.env.NODE_ENV == "production";
 
@@ -20,9 +22,16 @@ const config = {
     host: "localhost",
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      template: "index.html",
-    })
+    // No need to write a index.html
+    new HtmlWebpackPlugin(),
+    // Do not accumulate files in ./dist
+    new CleanWebpackPlugin(),
+    // Copy assets to serve them
+    new CopyPlugin({
+        patterns: [
+          { from: "assets", to: "assets" },
+        ],
+      }),
 
     // Add your plugins here
     // Learn more about plugins from https://webpack.js.org/configuration/plugins/

@@ -79,7 +79,7 @@ class monde{
     }
 }
 
-import data from '../assets/informationPays.json';
+let data = require('../assets/informationPays.json');
 
 let listePays: pays[] = [];
 let contaminationDepart: number = 100;

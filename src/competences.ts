@@ -1,14 +1,26 @@
 class competence{
 
-    public constructor(name : String, description : String, effects : number[]){
+    public constructor(name : String, description : String, effects : number[], cost : number){
         this.name = name;
         this.description = description;
         this.effets = effects;
+        this.cost = cost;
     }
 
     name : String;
     description : String;
     effets : number[];
+
+    cost : number;
+
+    buyed : boolean = false;
+
+    public buy(){
+        if (!this.buyed){
+            // check l'argent et l'enlever
+            
+        }
+    }
 }
 
 

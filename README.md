@@ -27,11 +27,11 @@ L'éducation des jeunes aux risques du VIH, aux effets secondaires, aux moyens d
 
 ### La team et les remerciements
 Le projet a été réalisé par : 
-- Valentin (qui a mis 8h à afficher une PNG) 
+- Valentin (qui a mis 8h à afficher une PNG, et qui a refusé d'ajouter les icônes durement créées par Sasha, parce que la flemme) 
 - Nathan (qui a passé 2h à calculer le total de la population mondiale en 2021)
 - Thomas (qui a fait tous les calculs et nous a permis de faire un vrai truc) 
-- Pierrick (qui est resté jusqu'à h du matin alors qu'il devait partir à 1h du matin) 
-- Sasha (qui n'a pas fait de dev de toute la nuit...)
+- Pierrick (qui est resté jusqu'à 7h du matin alors qu'il devait partir à 1h du matin) 
+- Sasha (qui n'a pas fait de dev de toute la nuit, mais qui a écrit ce beau ReadMe...)
 
 Un gros merci à l'association La Palme, BDE d'informatique-électronique de l'université de Rennes 1, pour avoir organisé la Nuit de l'Info à Rennes !
 Merci à la Nuit de l'info pour cette compétition incroyable !

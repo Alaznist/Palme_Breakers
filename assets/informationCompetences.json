@@ -7,21 +7,25 @@
                     "description":"La population pense désormais que seuls les hommes homosexuels peuvent être contaminés par le VIH. Augmente la transmission.",
                     "effects":[
                         0,10,0
-                    ]
+                    ],
+                    "cost":15
+
                 },
                 {
                     "name":"C'est mieux sans capote",
                     "description":"La rumeur que c’est moins agréable d'utiliser un préservatif externe lors de relations sexuelles court… La population utilise moins de préservatifs. Augmente la transmission.",
                     "effects":[
                         0,5,0
-                    ]
+                    ],
+                    "cost":8
                 },
                 {
                     "name":"Pas de sida avec la pilule",
                     "description":"La population pense que la pilule protège du VIH et des IST ! Les couples arrêtent d’utiliser des préservatifs externes alors qu’ils ne sont pas dépistés. Augmente la transmission.",
                     "effects":[
                         0,6,0
-                    ]
+                    ],
+                    "cost":9
                 }
                 ,
                 {
@@ -29,70 +33,81 @@
                     "description":"Les médias invitent des religieux qui expliquent qu’utiliser une contraception, c’est aller contre la volonté de dieu. Augmente la transmission.",
                     "effects":[
                         0,8,0
-                    ]
+                    ],
+                    "cost":12
                 },
                 {
                     "name":"Lobbying de groupes médicaux",
                     "description":"Les entreprises médicales de soin optent pour des traitements plus longs, afin d'augmenter leurs bénéfices. Augmentation légère du taux de mortalité.",
                     "effects":[
                         0.02,0,0
-                    ]
+                    ],
+                    "cost":5
+                    
                 },
                 {
                     "name":"La réglisse contre le SIDA",
                     "description":"La solution à absolument connaître contre le SIDA !!! La réglisse, nouvelle médecine à la mode. La population infectée s'oriente vers une pseudo-médecine pour ne pas développer le SIDA. Augmente la mortalité.",
                     "effects":[
                         0.06,0,0
-                    ]
+                    ],
+                    "cost":15
                 },
                 {
                     "name":"Détournements des fonds Sidaction",
                     "description":"Vous engagez des hackers pour détourner les fonds du sidaction de l'année afin de vous enrichir. Ralenti les recherches.",
                     "effects":[
                         0,0,-0.5
-                    ]
+                    ],
+                    "cost":25
                 },
                 {
                     "name":"Sabotage des recherches",
                     "description":"Vous vous inflitrer dans des groupes de recherche pour saboter les expérimentations. Ralenti la recherche.",
                     "effects":[
                         0,0,-0.5
-                    ]
+                    ],
+                    "cost":25
                 },
                 {
                     "name":"Augmentation du prix du dépistage",
                     "description":"La population se fait de moins en moins dépister, et bénéficie donc moins des traitements post-exposition (traitement d'urgence, pris rapidemment après l'exposition au VIH) et des traitements antirétroviraux (qui empêche l'évolution vers le SIDA). Augmente la mortalité.",
                     "effects":[
                         0.09,0,0
-                    ]
+                    ],
+                    "cost":25
                 },
                 {
                     "name":"Augmentation du prix des préservatif",
                     "description":"Face à la hausse des prix, la population achète moins de préservatifs. Augmente la transmission.",
                     "effects":[
                         0,9,0
-                    ]
+                    ],
+                    "cost":13
                 },
                 {
                     "name":"Suppression des cours d'éducation sexuelle",
                     "description":"La population est de moins en moins éduquée à la nécessité d'utiliser une protection contre les IST, et aux conséquences du SIDA. Augmente la transmission.",
                     "effects":[
                         0,8,0
-                    ]
+                    ],
+                    "cost":12
                 },
                 {
                     "name":"On ne parle pas de sexualité !",
                     "description":"Parler de sexualité devient de plus en plus tabou. Les parents ne parlent plus des risques à leurs enfants. Augmente la transmission.",
                     "effects":[
                         0,6,0
-                    ]
+                    ],
+                    "cost":9
                 },
                 {
                     "name":"Effets secondaires",
                     "description":"Les personnes non soignées développent des symptômes : fièvre, troubles cognitifs, déficit moteur, diarrhée, malaise, tachycardie, douleurs articulaires et courbatures... Accélère la recherche et augmente la mortalité.",
                     "effects":[
                         0.15,0,1
-                    ]
+                    ],
+                    "cost":10
                 }
 
     ]

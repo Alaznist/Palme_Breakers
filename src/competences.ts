@@ -28,7 +28,7 @@ let competenceJson = require("../assets/informationCompetences.json");
 let listeCompetence: competence[] = [];
 
 for (const Objetcompetence of competenceJson["competences"]) {
-    listeCompetence.push(new competence(Objetcompetence["name"],Objetcompetence["description"],Objetcompetence["effects"]));   
+    listeCompetence.push(new competence(Objetcompetence["name"],Objetcompetence["description"],Objetcompetence["effects"],Objetcompetence["cost"]));   
 }
 
 console.log(listeCompetence);

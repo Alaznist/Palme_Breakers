@@ -13,7 +13,7 @@ On a ainsi décidé de faire une dédicace au jeu Plague Inc., développé par l
 Notre version est axée autour du Virus de l'Immunodéficience Humaine (VIH).
 
 ### Notre jeu ?
-Le but : éradiquer l'ensemble de la population terrienne par le VIH. Comment y arrive-t-on ? La joueuse ou le joueur, par le biais d'un arbre de compétence, doit faire évoluer les facteurs de transmission du VIH et son taux de mortalité, tout en empêchant la recherche, qui souhaite développer un traitement, de progresser.
+Le but : éradiquer l'ensemble de la population terrienne par le VIH. Comment y arrive-t-on ? La joueuse ou le joueur, par le biais d'une liste de compétences, doit faire évoluer les facteurs de transmission du VIH et son taux de mortalité, tout en empêchant la recherche, qui souhaite développer un traitement, de progresser.
 
 Pour ce faire, les joueuses et les joueurs peuvent agir sur trois axes : 
 - Propager de la désinformation 

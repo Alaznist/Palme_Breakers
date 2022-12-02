@@ -1,0 +1,1057 @@
+[
+  {
+    "name": "Aruba",
+    "code": "ABW",
+    "pop": 107195
+  },
+  {
+    "name": "Afghanistan",
+    "code": "AFG",
+    "pop": 39835428
+  },
+  {
+    "name": "Angola",
+    "code": "AGO",
+    "pop": 33933611
+  },
+  {
+    "name": "Albanie",
+    "code": "ALB",
+    "pop": 2811666
+  },
+  {
+    "name": "Andorre",
+    "code": "AND",
+    "pop": 77354
+  },
+  {
+    "name": "Émirats arabes unis",
+    "code": "ARE",
+    "pop": 9991083
+  },
+  {
+    "name": "Argentine",
+    "code": "ARG",
+    "pop": 45808747
+  },
+  {
+    "name": "Arménie",
+    "code": "ARM",
+    "pop": 2968128
+  },
+  {
+    "name": "Samoa américaines",
+    "code": "ASM",
+    "pop": 55103
+  },
+  {
+    "name": "Antigua-et-Barbuda",
+    "code": "ATG",
+    "pop": 98728
+  },
+  {
+    "name": "Australie",
+    "code": "AUS",
+    "pop": 25739256
+  },
+  {
+    "name": "Autriche",
+    "code": "AUT",
+    "pop": 8956279
+  },
+  {
+    "name": "Azerbaïdjan",
+    "code": "AZE",
+    "pop": 10145212
+  },
+  {
+    "name": "Burundi",
+    "code": "BDI",
+    "pop": 12255429
+  },
+  {
+    "name": "Belgique",
+    "code": "BEL",
+    "pop": 11587882
+  },
+  {
+    "name": "Bénin",
+    "code": "BEN",
+    "pop": 12451031
+  },
+  {
+    "name": "Burkina Faso",
+    "code": "BFA",
+    "pop": 21497097
+  },
+  {
+    "name": "Bangladesh",
+    "code": "BGD",
+    "pop": 166303494
+  },
+  {
+    "name": "Bulgarie",
+    "code": "BGR",
+    "pop": 6899125
+  },
+  {
+    "name": "Bahreïn",
+    "code": "BHR",
+    "pop": 1748295
+  },
+  {
+    "name": "Bahamas",
+    "code": "BHS",
+    "pop": 396914
+  },
+  {
+    "name": "Bosnie-Herzégovine",
+    "code": "BIH",
+    "pop": 3263459
+  },
+  {
+    "name": "Bélarus",
+    "code": "BLR",
+    "pop": 9340314
+  },
+  {
+    "name": "Belize",
+    "code": "BLZ",
+    "pop": 404915
+  },
+  {
+    "name": "Bermudes",
+    "code": "BMU",
+    "pop": 63867
+  },
+  {
+    "name": "Bolivie",
+    "code": "BOL",
+    "pop": 11832936
+  },
+  {
+    "name": "Brésil",
+    "code": "BRA",
+    "pop": 213993441
+  },
+  {
+    "name": "Barbade",
+    "code": "BRB",
+    "pop": 287708
+  },
+  {
+    "name": "Brunéi Darussalam",
+    "code": "BRN",
+    "pop": 441532
+  },
+  {
+    "name": "Bhoutan",
+    "code": "BTN",
+    "pop": 779900
+  },
+  {
+    "name": "Botswana",
+    "code": "BWA",
+    "pop": 2397240
+  },
+  {
+    "name": "République centrafricaine",
+    "code": "CAF",
+    "pop": 4919987
+  },
+  {
+    "name": "Canada",
+    "code": "CAN",
+    "pop": 38246108
+  },
+  {
+    "name": "Suisse",
+    "code": "CHE",
+    "pop": 8697723
+  },
+  {
+    "name": "Chili",
+    "code": "CHL",
+    "pop": 19212362
+  },
+  {
+    "name": "Chine",
+    "code": "CHN",
+    "pop": 1412360000
+  },
+  {
+    "name": "Côte d'Ivoire",
+    "code": "CIV",
+    "pop": 27053629
+  },
+  {
+    "name": "Cameroun",
+    "code": "CMR",
+    "pop": 27224262
+  },
+  {
+    "name": "République démocratique du Congo",
+    "code": "COD",
+    "pop": 92377986
+  },
+  {
+    "name": "République du Congo",
+    "code": "COG",
+    "pop": 5657017
+  },
+  {
+    "name": "Colombie",
+    "code": "COL",
+    "pop": 51265841
+  },
+  {
+    "name": "Comores",
+    "code": "COM",
+    "pop": 888456
+  },
+  {
+    "name": "Cabo Verde",
+    "code": "CPV",
+    "pop": 561901
+  },
+  {
+    "name": "Costa Rica",
+    "code": "CRI",
+    "pop": 5139053
+  },
+  {
+    "name": "Cuba",
+    "code": "CUB",
+    "pop": 11317498
+  },
+  {
+    "name": "Îles Caïmans",
+    "code": "CYM",
+    "pop": 66498
+  },
+  {
+    "name": "Chypre",
+    "code": "CYP",
+    "pop": 1215588
+  },
+  {
+    "name": "République tchèque",
+    "code": "CZE",
+    "pop": 10703446
+  },
+  {
+    "name": "Allemagne",
+    "code": "DEU",
+    "pop": 83129285
+  },
+  {
+    "name": "Djibouti",
+    "code": "DJI",
+    "pop": 1002197
+  },
+  {
+    "name": "Dominique",
+    "code": "DMA",
+    "pop": 72172
+  },
+  {
+    "name": "Danemark",
+    "code": "DNK",
+    "pop": 5856733
+  },
+  {
+    "name": "République dominicaine",
+    "code": "DOM",
+    "pop": 10953714
+  },
+  {
+    "name": "Algérie",
+    "code": "DZA",
+    "pop": 44616626
+  },
+  {
+    "name": "Équateur",
+    "code": "ECU",
+    "pop": 17888474
+  },
+  {
+    "name": "Égypte, République arabe d’",
+    "code": "EGY",
+    "pop": 104258327
+  },
+  {
+    "name": "Érythrée",
+    "code": "ERI",
+    "pop": ""
+  },
+  {
+    "name": "Espagne",
+    "code": "ESP",
+    "pop": 47326687
+  },
+  {
+    "name": "Estonie",
+    "code": "EST",
+    "pop": 1329254
+  },
+  {
+    "name": "Éthiopie",
+    "code": "ETH",
+    "pop": 117876226
+  },
+  {
+    "name": "Finlande",
+    "code": "FIN",
+    "pop": 5541696
+  },
+  {
+    "name": "Fidji",
+    "code": "FJI",
+    "pop": 902899
+  },
+  {
+    "name": "France",
+    "code": "FRA",
+    "pop": 67499343
+  },
+  {
+    "name": "Îles Féroé",
+    "code": "FRO",
+    "pop": 49053
+  },
+  {
+    "name": "Micronésie, États fédérés de",
+    "code": "FSM",
+    "pop": 116255
+  },
+  {
+    "name": "Gabon",
+    "code": "GAB",
+    "pop": 2278829
+  },
+  {
+    "name": "Royaume-Uni",
+    "code": "GBR",
+    "pop": 67326569
+  },
+  {
+    "name": "Géorgie",
+    "code": "GEO",
+    "pop": 3708610
+  },
+  {
+    "name": "Ghana",
+    "code": "GHA",
+    "pop": 31732128
+  },
+  {
+    "name": "Gibraltar",
+    "code": "GIB",
+    "pop": 33691
+  },
+  {
+    "name": "Guinée",
+    "code": "GIN",
+    "pop": 13497237
+  },
+  {
+    "name": "Gambie",
+    "code": "GMB",
+    "pop": 2486937
+  },
+  {
+    "name": "Guinée-Bissau",
+    "code": "GNB",
+    "pop": 2015490
+  },
+  {
+    "name": "Guinée équatoriale",
+    "code": "GNQ",
+    "pop": 1449891
+  },
+  {
+    "name": "Grèce",
+    "code": "GRC",
+    "pop": 10664568
+  },
+  {
+    "name": "Grenade",
+    "code": "GRD",
+    "pop": 113015
+  },
+  {
+    "name": "Groenland",
+    "code": "GRL",
+    "pop": 56653
+  },
+  {
+    "name": "Guatemala",
+    "code": "GTM",
+    "pop": 17109746
+  },
+  {
+    "name": "Guam",
+    "code": "GUM",
+    "pop": 170184
+  },
+  {
+    "name": "Guyana",
+    "code": "GUY",
+    "pop": 790329
+  },
+  {
+    "name": "Chine, RAS de Hong Kong",
+    "code": "HKG",
+    "pop": 7413100
+  },
+  {
+    "name": "Honduras",
+    "code": "HND",
+    "pop": 10062994
+  },
+  {
+    "name": "Croatie",
+    "code": "HRV",
+    "pop": 3899000
+  },
+  {
+    "name": "Haïti",
+    "code": "HTI",
+    "pop": 11541683
+  },
+  {
+    "name": "Hongrie",
+    "code": "HUN",
+    "pop": 9709886
+  },
+  {
+    "name": "Indonésie",
+    "code": "IDN",
+    "pop": 276361788
+  },
+  {
+    "name": "Inde",
+    "code": "IND",
+    "pop": 1393409033
+  },
+  {
+    "name": "Irlande",
+    "code": "IRL",
+    "pop": 5028230
+  },
+  {
+    "name": "Iran, République islamique d’",
+    "code": "IRN",
+    "pop": 85028760
+  },
+  {
+    "name": "Iraq",
+    "code": "IRQ",
+    "pop": 41179351
+  },
+  {
+    "name": "Islande",
+    "code": "ISL",
+    "pop": 372295
+  },
+  {
+    "name": "Israël",
+    "code": "ISR",
+    "pop": 9364000
+  },
+  {
+    "name": "Italie",
+    "code": "ITA",
+    "pop": 59066225
+  },
+  {
+    "name": "Jamaïque",
+    "code": "JAM",
+    "pop": 2973462
+  },
+  {
+    "name": "Jordanie",
+    "code": "JOR",
+    "pop": 10269022
+  },
+  {
+    "name": "Japon",
+    "code": "JPN",
+    "pop": 125681593
+  },
+  {
+    "name": "Kazakhstan",
+    "code": "KAZ",
+    "pop": 19002586
+  },
+  {
+    "name": "Kenya",
+    "code": "KEN",
+    "pop": 54985702
+  },
+  {
+    "name": "République kirghize",
+    "code": "KGZ",
+    "pop": 6694200
+  },
+  {
+    "name": "Cambodge",
+    "code": "KHM",
+    "pop": 16946446
+  },
+  {
+    "name": "Kiribati",
+    "code": "KIR",
+    "pop": 121388
+  },
+  {
+    "name": "Saint-Kitts-et-Nevis",
+    "code": "KNA",
+    "pop": 53546
+  },
+  {
+    "name": "Corée, République de",
+    "code": "KOR",
+    "pop": 51744876
+  },
+  {
+    "name": "Koweït",
+    "code": "KWT",
+    "pop": 4328553
+  },
+  {
+    "name": "République démocratique populaire lao",
+    "code": "LAO",
+    "pop": 7379358
+  },
+  {
+    "name": "Liban",
+    "code": "LBN",
+    "pop": 6769151
+  },
+  {
+    "name": "Libéria",
+    "code": "LBR",
+    "pop": 5180208
+  },
+  {
+    "name": "Libye",
+    "code": "LBY",
+    "pop": 6958538
+  },
+  {
+    "name": "Sainte-Lucie",
+    "code": "LCA",
+    "pop": 184401
+  },
+  {
+    "name": "Liechtenstein",
+    "code": "LIE",
+    "pop": 38254
+  },
+  {
+    "name": "Sri Lanka",
+    "code": "LKA",
+    "pop": 22156000
+  },
+  {
+    "name": "Lesotho",
+    "code": "LSO",
+    "pop": 2159067
+  },
+  {
+    "name": "Lituanie",
+    "code": "LTU",
+    "pop": 2795321
+  },
+  {
+    "name": "Luxembourg",
+    "code": "LUX",
+    "pop": 639070
+  },
+  {
+    "name": "Lettonie",
+    "code": "LVA",
+    "pop": 1883162
+  },
+  {
+    "name": "Région administrative spéciale de Macao, Chine",
+    "code": "MAC",
+    "pop": 658391
+  },
+  {
+    "name": "Maroc",
+    "code": "MAR",
+    "pop": 37344787
+  },
+  {
+    "name": "Monaco",
+    "code": "MCO",
+    "pop": 39520
+  },
+  {
+    "name": "Moldova",
+    "code": "MDA",
+    "pop": 2573928
+  },
+  {
+    "name": "Madagascar",
+    "code": "MDG",
+    "pop": 28427333
+  },
+  {
+    "name": "Maldives",
+    "code": "MDV",
+    "pop": 543620
+  },
+  {
+    "name": "Mexique",
+    "code": "MEX",
+    "pop": 130262220
+  },
+  {
+    "name": "Îles Marshall",
+    "code": "MHL",
+    "pop": 59618
+  },
+  {
+    "name": "Macédoine du Nord",
+    "code": "MKD",
+    "pop": 2065092
+  },
+  {
+    "name": "Mali",
+    "code": "MLI",
+    "pop": 20855724
+  },
+  {
+    "name": "Malte",
+    "code": "MLT",
+    "pop": 516869
+  },
+  {
+    "name": "Myanmar",
+    "code": "MMR",
+    "pop": 54806014
+  },
+  {
+    "name": "Monténégro",
+    "code": "MNE",
+    "pop": 620173
+  },
+  {
+    "name": "Mongolie",
+    "code": "MNG",
+    "pop": 3329282
+  },
+  {
+    "name": "Mariannes",
+    "code": "MNP",
+    "pop": 57910
+  },
+  {
+    "name": "Mozambique",
+    "code": "MOZ",
+    "pop": 32163045
+  },
+  {
+    "name": "Mauritanie",
+    "code": "MRT",
+    "pop": 4775110
+  },
+  {
+    "name": "Maurice",
+    "code": "MUS",
+    "pop": 1266060
+  },
+  {
+    "name": "Malawi",
+    "code": "MWI",
+    "pop": 19647681
+  },
+  {
+    "name": "Malaisie",
+    "code": "MYS",
+    "pop": 32776195
+  },
+  {
+    "name": "Namibie",
+    "code": "NAM",
+    "pop": 2587344
+  },
+  {
+    "name": "Nouvelle-Calédonie",
+    "code": "NCL",
+    "pop": 272620
+  },
+  {
+    "name": "Niger",
+    "code": "NER",
+    "pop": 25130810
+  },
+  {
+    "name": "Nigéria",
+    "code": "NGA",
+    "pop": 211400704
+  },
+  {
+    "name": "Nicaragua",
+    "code": "NIC",
+    "pop": 6702379
+  },
+  {
+    "name": "Pays-Bas",
+    "code": "NLD",
+    "pop": 17533405
+  },
+  {
+    "name": "Norvège",
+    "code": "NOR",
+    "pop": 5408320
+  },
+  {
+    "name": "Népal",
+    "code": "NPL",
+    "pop": 29674920
+  },
+  {
+    "name": "Nauru",
+    "code": "NRU",
+    "pop": 10873
+  },
+  {
+    "name": "Nouvelle-Zélande",
+    "code": "NZL",
+    "pop": 5122600
+  },
+  {
+    "name": "Oman",
+    "code": "OMN",
+    "pop": 5223376
+  },
+  {
+    "name": "Pakistan",
+    "code": "PAK",
+    "pop": 225199929
+  },
+  {
+    "name": "Panama",
+    "code": "PAN",
+    "pop": 4381583
+  },
+  {
+    "name": "Pérou",
+    "code": "PER",
+    "pop": 33359416
+  },
+  {
+    "name": "Philippines",
+    "code": "PHL",
+    "pop": 111046910
+  },
+  {
+    "name": "Palaos",
+    "code": "PLW",
+    "pop": 18174
+  },
+  {
+    "name": "Papouasie-Nouvelle-Guinée",
+    "code": "PNG",
+    "pop": 9119005
+  },
+  {
+    "name": "Pologne",
+    "code": "POL",
+    "pop": 37781024
+  },
+  {
+    "name": "Porto Rico",
+    "code": "PRI",
+    "pop": 3263584
+  },
+  {
+    "name": "République démocratique de Corée",
+    "code": "PRK",
+    "pop": 25887045
+  },
+  {
+    "name": "Portugal",
+    "code": "PRT",
+    "pop": 10299423
+  },
+  {
+    "name": "Paraguay",
+    "code": "PRY",
+    "pop": 7219641
+  },
+  {
+    "name": "Cisjordanie et Gaza",
+    "code": "PSE",
+    "pop": 4922749
+  },
+  {
+    "name": "Polynésie française",
+    "code": "PYF",
+    "pop": 282534
+  },
+  {
+    "name": "Qatar",
+    "code": "QAT",
+    "pop": 2930524
+  },
+  {
+    "name": "Roumanie",
+    "code": "ROU",
+    "pop": 19115146
+  },
+  {
+    "name": "Fédération de Russie",
+    "code": "RUS",
+    "pop": 143446060
+  },
+  {
+    "name": "Rwanda",
+    "code": "RWA",
+    "pop": 13276517
+  },
+  {
+    "name": "Arabie saoudite",
+    "code": "SAU",
+    "pop": 35340680
+  },
+  {
+    "name": "Soudan",
+    "code": "SDN",
+    "pop": 44909351
+  },
+  {
+    "name": "Sénégal",
+    "code": "SEN",
+    "pop": 17196308
+  },
+  {
+    "name": "Singapour",
+    "code": "SGP",
+    "pop": 5453566
+  },
+  {
+    "name": "Îles Salomon",
+    "code": "SLB",
+    "pop": 703995
+  },
+  {
+    "name": "Sierra Leone",
+    "code": "SLE",
+    "pop": 8141343
+  },
+  {
+    "name": "El Salvador",
+    "code": "SLV",
+    "pop": 6518500
+  },
+  {
+    "name": "Saint-Marin",
+    "code": "SMR",
+    "pop": 34010
+  },
+  {
+    "name": "Somalie",
+    "code": "SOM",
+    "pop": 16359500
+  },
+  {
+    "name": "Serbie",
+    "code": "SRB",
+    "pop": 6844078
+  },
+  {
+    "name": "Soudan du Sud",
+    "code": "SSD",
+    "pop": 11381377
+  },
+  {
+    "name": "Sao Tomé-et-Principe",
+    "code": "STP",
+    "pop": 223364
+  },
+  {
+    "name": "Suriname",
+    "code": "SUR",
+    "pop": 591798
+  },
+  {
+    "name": "République slovaque",
+    "code": "SVK",
+    "pop": 5447247
+  },
+  {
+    "name": "Slovénie",
+    "code": "SVN",
+    "pop": 2107007
+  },
+  {
+    "name": "Suède",
+    "code": "SWE",
+    "pop": 10415811
+  },
+  {
+    "name": "Eswatini",
+    "code": "SWZ",
+    "pop": 1172369
+  },
+  {
+    "name": "Seychelles",
+    "code": "SYC",
+    "pop": 99202
+  },
+  {
+    "name": "République arabe syrienne",
+    "code": "SYR",
+    "pop": 18275704
+  },
+  {
+    "name": "Îles Turques-et-Caïques",
+    "code": "TCA",
+    "pop": 39226
+  },
+  {
+    "name": "Tchad",
+    "code": "TCD",
+    "pop": 16914985
+  },
+  {
+    "name": "Togo",
+    "code": "TGO",
+    "pop": 8478242
+  },
+  {
+    "name": "Thaïlande",
+    "code": "THA",
+    "pop": 69950844
+  },
+  {
+    "name": "Tadjikistan",
+    "code": "TJK",
+    "pop": 9749625
+  },
+  {
+    "name": "Turkménistan",
+    "code": "TKM",
+    "pop": 6117933
+  },
+  {
+    "name": "Timor-Leste",
+    "code": "TLS",
+    "pop": 1343875
+  },
+  {
+    "name": "Tonga",
+    "code": "TON",
+    "pop": 106759
+  },
+  {
+    "name": "Trinité-et-Tobago",
+    "code": "TTO",
+    "pop": 1403374
+  },
+  {
+    "name": "Tunisie",
+    "code": "TUN",
+    "pop": 11935764
+  },
+  {
+    "name": "Turquie",
+    "code": "TUR",
+    "pop": 85042736
+  },
+  {
+    "name": "Tuvalu",
+    "code": "TUV",
+    "pop": 11925
+  },
+  {
+    "name": "Tanzanie",
+    "code": "TZA",
+    "pop": 61498438
+  },
+  {
+    "name": "Ouganda",
+    "code": "UGA",
+    "pop": 47123533
+  },
+  {
+    "name": "Ukraine",
+    "code": "UKR",
+    "pop": 43814581
+  },
+  {
+    "name": "Uruguay",
+    "code": "URY",
+    "pop": 3485152
+  },
+  {
+    "name": "États-Unis",
+    "code": "USA",
+    "pop": 331893745
+  },
+  {
+    "name": "Ouzbékistan",
+    "code": "UZB",
+    "pop": 34915100
+  },
+  {
+    "name": "Saint-Vincent-et-les Grenadines",
+    "code": "VCT",
+    "pop": 111269
+  },
+  {
+    "name": "Venezuela",
+    "code": "VEN",
+    "pop": 28704947
+  },
+  {
+    "name": "Îles Vierges britanniques",
+    "code": "VGB",
+    "pop": 30423
+  },
+  {
+    "name": "Îles Vierges (EU)",
+    "code": "VIR",
+    "pop": 105870
+  },
+  {
+    "name": "Viet Nam",
+    "code": "VNM",
+    "pop": 98168829
+  },
+  {
+    "name": "Vanuatu",
+    "code": "VUT",
+    "pop": 314464
+  },
+  {
+    "name": "Samoa",
+    "code": "WSM",
+    "pop": 200144
+  },
+  {
+    "name": "Yémen, Rép. du",
+    "code": "YEM",
+    "pop": 30490639
+  },
+  {
+    "name": "Afrique du Sud",
+    "code": "ZAF",
+    "pop": 60041996
+  },
+  {
+    "name": "Zambie",
+    "code": "ZMB",
+    "pop": 18920657
+  },
+  {
+    "name": "Zimbabwe",
+    "code": "ZWE",
+    "pop": 15092171
+  }
+]

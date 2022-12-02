@@ -76,3 +76,30 @@ class monde{
         return diff;
     }
 }
+
+import data from '../assets/informationPays.json';
+
+let listePays: pays[] = [];
+let contaminationDepart: number = 100;
+
+// Création de la liste des pays
+for (const item of data) {
+    let pays1 = new pays(item["name"],item["pop"] as number,contaminationDepart,item["pop"] as number-contaminationDepart,0,0,17);
+    listePays.push(pays1);
+}
+
+// retourne le nombre de population dans le monde
+function nombrePopulationTotale(listePays: pays[]){
+    let total:number = 0;
+    for (const pays of listePays) {
+        total += Number(pays.nombrePopulation);
+    }
+
+    return total;
+}
+
+let modelisationMonde: monde = new monde(3,nombrePopulationTotale(listePays),contaminationDepart*listePays.length,nombrePopulationTotale(listePays)-(contaminationDepart*listePays.length),0,listePays);
+console.log(modelisationMonde);
+modelisationMonde.pasTemp();
+console.log(modelisationMonde);
+

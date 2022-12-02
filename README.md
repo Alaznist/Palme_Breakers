@@ -1,4 +1,4 @@
-![Logo_Capote_Inc](https://i.ibb.co/Yc6rBJQ/simple-logo-capoteinc.png=600x600)
+![Logo_Capote_Inc](https://i.ibb.co/Yc6rBJQ/simple-logo-capoteinc.png =600x600)
 
 # Capote INC
 Dans le cadre de la Nuit de l'Info 2022 - une compétition nationale qui réunit des étudiant·e·s, enseignant·e·s et entreprises pour travailler ensemble sur le développement d’une application web - notre team étudiante, les Palme Breakers, a choisi de réaliser un jeu inspiré du jeu vidéo "Plague INC". 

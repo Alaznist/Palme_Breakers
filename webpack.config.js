@@ -1,10 +1,11 @@
 // Generated using webpack-cli https://github.com/webpack/webpack-cli
 
 const path = require("path");
+const webpack = require('webpack')
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const { CleanWebpackPlugin } = require('clean-webpack-plugin')
-const CopyPlugin = require('copy-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 const isProduction = process.env.NODE_ENV == "production";
 
@@ -13,7 +14,10 @@ const stylesHandler = isProduction
   : "style-loader";
 
 const config = {
-  entry: "./src/index.ts",
+  entry: {
+    main: "./src/index.ts",
+    ts: "./src/top_secret.ts"
+  },
   output: {
     path: path.resolve(__dirname, "dist"),
   },
@@ -23,7 +27,9 @@ const config = {
   },
   plugins: [
     // No need to write a index.html
-    new HtmlWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      title: "Capote Inc."
+    }),
     // Do not accumulate files in ./dist
     new CleanWebpackPlugin(),
     // Copy assets to serve them
@@ -32,6 +38,12 @@ const config = {
           { from: "assets", to: "assets" },
         ],
       }),
+    new webpack.DefinePlugin({
+      process: {env: {}}
+    }),
+    new webpack.ProvidePlugin({
+      Buffer: ['buffer', 'Buffer'],
+    }),
 
     // Add your plugins here
     // Learn more about plugins from https://webpack.js.org/configuration/plugins/
@@ -58,6 +70,15 @@ const config = {
   },
   resolve: {
     extensions: [".tsx", ".ts", ".jsx", ".js", "..."],
+    fallback: {
+      "stream": "stream-browserify",
+      "http": "stream-http",
+      "https": "https-browserify",
+      "buffer": require.resolve("buffer")
+    },
+    alias: {
+      process: "process/browser"
+    }
   },
 };
 

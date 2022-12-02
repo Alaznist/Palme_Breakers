@@ -27,6 +27,12 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
-    "pixi.js": "7.0.4 "
+    "assert": "2.0.0",
+    "https-browserify": "1.0.0",
+    "pixi.js": "7.0.4 ",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "3.2.0",
+    "web3": "1.8.1",
+    "web3-eth-contract": "1.8.1"
   }
 }

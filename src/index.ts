@@ -225,7 +225,7 @@ const main = async () => {
                 wallet.innerHTML = currency +" capotes percées"
 
                 for (let p of listePays) {
-                    p.tauxMortalité += comp.effets[0]
+                    p.tauxMortalité += comp.effets[0] * 100
                     p.tauxContagion += comp.effets[1]
                     modelisationMonde.deltaTauxSoin += comp.effets[2]
                 }

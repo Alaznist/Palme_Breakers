@@ -12,7 +12,6 @@ class Competence{
 
     name : String;
     description : String;
-    // Modificateurs sur les 3 taux, restes a définir les indexes
     effets : number[];
 }
 
@@ -30,18 +29,19 @@ class Noeux{
         }
     }
 
+    public unlockTo(){
+        this.to.forEach(element => {
+            element.unlockNoeux();
+        });
+    }
+
+    // fonc a appeler pour acheter un noeux
     public buyNoeux(){
         if (this.unlocked && !this.buyed /* && money > this.coutCompetence */){
             // Link here money actions
             this.competance.doCompet();
             this.unlockTo()
         }
-    }
-
-    public unlockTo(){
-        this.to.forEach(element => {
-            element.unlockNoeux();
-        });
     }
 
     coutCompetence : number;

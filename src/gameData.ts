@@ -22,10 +22,11 @@ class pays{
     // retourne les différences, en premier la diff de gens sains, en second les nouveaux contaminés, en troisième les morts
     public updatePas(): number[]{
         let diffConta = parseInt((this.nombreContamine * this.tauxContagion / 10000).toFixed(0));
+        this.nombreSain -= diffConta;
         this.nombreContamine += diffConta;
         let diffMmort = parseInt((this.tauxMortalité * this.nombreContamine / 100).toFixed(0));
         this.nombreMort += diffMmort;
-        this.nombreSain -= diffConta;
+        this.nombreContamine -= diffConta;
         return [-diffConta, diffConta, diffMmort];
     }
 }

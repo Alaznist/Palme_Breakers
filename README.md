@@ -1,7 +1,7 @@
 <img src="https://i.ibb.co/Yc6rBJQ/simple-logo-capoteinc.png" alt="Logo_Capote_Inc" width="300x300"/>
 
-# Capote INC
-Dans le cadre de la Nuit de l'Info 2022 - une compétition nationale qui réunit des étudiant·e·s, enseignant·e·s et entreprises pour travailler ensemble sur le développement d’une application web - notre team étudiante, les Palme Breakers, a choisi de réaliser un jeu inspiré du jeu vidéo "Plague INC". 
+# Capote Inc.
+Dans le cadre de la Nuit de l'Info 2022 - une compétition nationale qui réunit des étudiant·e·s, enseignant·e·s et entreprises pour travailler ensemble sur le développement d’une application web - notre team étudiante, les Palme Breakers, a choisi de réaliser un jeu inspiré du jeu vidéo "Plague Inc.". 
 
 
 ### Le thème de cette année ? 
@@ -9,7 +9,7 @@ Nous avons eu 14h (de 16h35 à 7h) pour développer un serious game en ligne qui
 
 ### Notre projet ?
 L'une des difficultés dans la création d'un serious game, c'est de faire un jeu amusant, qui donne envie d'être joué. Car personne n'a envie de répondre à un quiz...
-On a ainsi décidé de faire une dédicace au jeu Plague INC, développé par le studio Ndemic Creations : " Capote INC". 
+On a ainsi décidé de faire une dédicace au jeu Plague Inc., développé par le studio Ndemic Creations : " Capote Inc.". 
 Notre version est axée autour du Virus de l'Immunodéficience Humaine (VIH).
 
 ### Notre jeu ?

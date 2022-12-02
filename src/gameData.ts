@@ -21,11 +21,11 @@ class pays{
 
     // retourne les différences, en premier la diff de gens sains, en second les nouveaux contaminés, en troisième les morts
     public updatePas(): number[]{
-        let diffConta = parseInt((this.nombreContamine * this.tauxContagion / 10000).toFixed(0));
+        let diffConta = parseInt((this.nombreContamine * this.tauxContagion / 1000).toFixed(0));
         console.log("diff Conta : " + diffConta);
         this.nombreSain -= diffConta;
         this.nombreContamine += diffConta;
-        let diffMmort = parseInt((this.tauxMortalité * this.nombreContamine / 100).toFixed(0));
+        let diffMmort = parseInt((this.tauxMortalité * this.nombreContamine / 1000).toFixed(0));
         this.nombreMort += diffMmort;
         this.nombreContamine -= diffMmort;
         return [-diffConta, diffConta, diffMmort];
@@ -83,11 +83,11 @@ let data = require('../assets/informationPays.json');
 
 let listePays: pays[] = [];
 let contaminationDepart: number = 100;
-let tauxDepartConta : number = 10;
+let tauxDepartConta : number = 20;
 
 // Création de la liste des pays
 for (const item of data) {
-    let pays1 = new pays(item["name"],item["pop"] as number,contaminationDepart,item["pop"] as number-contaminationDepart,0,tauxDepartConta,17);
+    let pays1 = new pays(item["name"],item["pop"] as number,contaminationDepart,item["pop"] as number-contaminationDepart,0,tauxDepartConta,15);
     listePays.push(pays1);
 }
 

@@ -73,16 +73,20 @@ const main = async () => {
     barre_prout.drawRect(window.innerWidth * 0.1, window.innerHeight * 0.925, window.innerWidth * (progress_morte * 0.8) ,  window.innerHeight * 0.025)
     app.stage.addChild(barre_prout)
 
-    let competences = []
+    let competenceJson = require("../assets/informationCompetences.json");
+    let listeCompetence: competence[] = [];
 
+    for (const Objetcompetence of competenceJson["competences"]) {
+        listeCompetence.push(new competence(Objetcompetence["name"],Objetcompetence["description"],Objetcompetence["effects"],Objetcompetence["cost"]));   
+    }
     let arbre = document.createElement("div")
 
-    for (let comp of competences) {
+    for (let comp of listeCompetence) {
         let div = document.createElement("div")
         let titre = document.createElement("h3")
-        titre.innerHTML = competence.name
+        titre.innerHTML = comp.name
         let desc = document.createElement("p")
-        desc.innerHTML = competence.description
+        desc.innerHTML = comp.description
 
         div.appendChild(titre)
         div.appendChild(desc)

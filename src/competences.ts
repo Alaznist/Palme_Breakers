@@ -1,34 +1,25 @@
 class competence{
 
-    public constructor(name : String, description : String, effects : number[], cost : number){
+    public constructor(name : string, description : string, effects : number[], cost : number){
         this.name = name;
         this.description = description;
         this.effets = effects;
         this.cost = cost;
     }
 
-    name : String;
-    description : String;
-    effets : number[];
+    public name : string;
+    public description : string;
+    public effets : number[];
 
     cost : number;
 
-    buyed : boolean = false;
+    bought : boolean = false;
 
     public buy(){
-        if (!this.buyed){
+        if (!this.bought){
             // check l'argent et l'enlever
             
         }
     }
 }
-
-
-let competenceJson = require("../assets/informationCompetences.json");
-let listeCompetence: competence[] = [];
-
-for (const Objetcompetence of competenceJson["competences"]) {
-    listeCompetence.push(new competence(Objetcompetence["name"],Objetcompetence["description"],Objetcompetence["effects"],Objetcompetence["cost"]));   
-}
-
-console.log(listeCompetence);
+ 

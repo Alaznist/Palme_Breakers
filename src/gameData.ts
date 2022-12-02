@@ -26,7 +26,7 @@ class pays{
         this.nombreContamine += diffConta;
         let diffMmort = parseInt((this.tauxMortalité * this.nombreContamine / 100).toFixed(0));
         this.nombreMort += diffMmort;
-        this.nombreContamine -= diffConta;
+        this.nombreContamine -= diffMmort;
         return [-diffConta, diffConta, diffMmort];
     }
 }
@@ -82,10 +82,11 @@ import data from '../assets/informationPays.json';
 
 let listePays: pays[] = [];
 let contaminationDepart: number = 100;
+let tauxDeparConta : number = 1;
 
 // Création de la liste des pays
 for (const item of data) {
-    let pays1 = new pays(item["name"],item["pop"] as number,contaminationDepart,item["pop"] as number-contaminationDepart,0,0,17);
+    let pays1 = new pays(item["name"],item["pop"] as number,contaminationDepart,item["pop"] as number-contaminationDepart,0,tauxDeparConta,17);
     listePays.push(pays1);
 }
 

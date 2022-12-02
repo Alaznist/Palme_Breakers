@@ -22,3 +22,17 @@ Pour ce faire, les joueuses et les joueurs peuvent agir sur trois axes :
 
 ### L'aspect pédagogique ?
 L'éducation des jeunes aux risques du VIH, aux effets secondaires, aux moyens de prévention et d'action, ainsi que le débunkage des fausses idées se fait ainsi de manière inversée : au lieu de lister ce qu'il faut faire (ce qui peut être rébarbatif pour un public de jeunes), on joue avec ce qu'il ne faut pas faire. Ainsi, le sujet est abordé de manière décomplexée et ludique. 
+
+
+
+### La team et les remerciements
+Le projet a été réalisé par : 
+- Valentin (qui a mis 8h à afficher une PNG) 
+- Nathan (qui a passé 2h à calculer le total de la population mondiale)
+- Thomas (qui a fait tous les calculs et nous a permis de faire un vrai truc) 
+- Pierrick (qui est resté jusqu'à h du matin alors qu'il devait partir à 1h du matin) 
+- Sasha (qui n'a pas fait de dev de toute la nuit...)
+
+Un gros merci à l'association La Palme, BDE d'informatique-électronique de l'université de Rennes 1, pour avoir organisé la Nuit de l'Info à Rennes !
+Merci à la Nuit de l'info pour cette compétition incroyable !
+Et merci à toutes les personnes qui ont participé à l'orga' pour la nourriture et les boissons, et les crêpes pour 50 personnes !!
